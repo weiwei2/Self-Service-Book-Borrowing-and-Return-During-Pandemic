@@ -1,32 +1,21 @@
-# Prerequisites
-*.d
+**/.pio
+**/.vscode
+**/.DS_Store
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+**/build
+**/sdkconfig
+**/sdkconfig.old
 
-# Precompiled Headers
-*.gch
-*.pch
+**/__pycache__
+*.py[cod]
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+/components/esp-cryptoauthlib/esp_cryptoauth_utility/output_files/*
+/utilities/device_registration_helper/output_files/*
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+**/account.info
+**/device.cert
+**/device.info
+**/server.cert
+**/endpoint.info
+**/device.key
+**/mfg.bin
